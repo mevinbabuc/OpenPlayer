@@ -11,12 +11,12 @@ Download bass audio library(linux) from http://www.un4seen.com/bass.html and pla
 Compiling the source
 ====================
 
- gcc main.c ./libbass.so -o play
+    gcc main.c ./libbass.so -o play
 
 Running the application
 =======================
-  ./play $song_dir 3    to play all the songs from the directory 
-  ./play song.mp3       to play a particular song
+    ./play $song_dir 3    to play all the songs from the directory 
+    ./play song.mp3       to play a particular song
 
 Features
 ========
